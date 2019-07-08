@@ -11,3 +11,5 @@ raw_data = {'first_name': ['Jason', 'Molly', 'Tina', 'Jake', 'Amy'],
         'postTestScore': [25, 94, 57, 62, 70]}
         
 df = pd.DataFrame(raw_data, columns = ['first_name', 'last_name', 'age', 'preTestScore', 'postTestScore'])
+
+df['new_column'] = 'this is how you insert a new column'
