@@ -6,6 +6,7 @@ Using concat() is like SQL Union All.
 import pandas as pd
 
 def merge_dataframes(*args):
+    
     df = pd.concat(args, sort = True)
     df = df.reset_index(drop = True)
 
